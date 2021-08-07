@@ -1,10 +1,76 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  }
+
+.header{
+  background-color: #1c5380;
+  height: 220px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.instagram-icon {
+  margin:100px 0 0 500px;
+  width: 300px;
+  height: 80px;
+}
+
+.login-button{
+  display: inline;
+  padding: 5px;
+  border: 2px solid #06365f;
+  color: white;
+  vertical-align: middle;
+  margin:120px 350px 100px 0px;
+  width: 90px;
+  height: 30px;
+}
+
+.container{
+  max-width: 50%;
+  padding: 20px 0 0 40px;
+}
+
+.hero-image-text-background{
+ background-image: url("../images/frame.png");
+ margin-left: 500px;
+ position: absolute;
+ background-repeat: no-repeat;
+}
+
+.phones-img{
+  margin-left: 120px; 
+}
+
+.iphone-icon{
+ margin: 20px 8px 0 0;
+}
+
+.android-icon{
+  margin: 20px 0 0 20px;
+}
+
+h1{
+  color: #06365f;
+}
+
+a{
+  color: #06365f;
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-weight:bold;
+  font-size: 12px;
+  padding: 5px;
+  max-width: 50%;
+  margin-left: 350px;
 }
